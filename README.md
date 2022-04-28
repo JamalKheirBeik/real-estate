@@ -1,7 +1,6 @@
 # About
 
-this project is an implementation for a real estate company
-link for the project: [click me](https://www.real-estate-2022.infinityfreeapp.com/)
+this project is an implementation for a real estate company, link for the project: [click me](https://www.real-estate-2022.infinityfreeapp.com/)
 
 ## Tools used
 
