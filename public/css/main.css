@@ -498,10 +498,10 @@ section .cards .card p {
   background-color: var(--green1);
 }
 /* properties */
-.properties .card {
+.properties .cards .card {
   display: flex;
   flex-direction: column;
-  width: 400px !important;
+  width: 400px;
   position: relative;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
   overflow: hidden;
@@ -754,6 +754,9 @@ footer {
 
 /* mobile responsive */
 @media only screen and (max-width: 750px) {
+  .banner form {
+    width: 100%;
+  }
   section {
     padding: 20px;
   }
@@ -797,6 +800,9 @@ footer {
   .reviews form button,
   .reviews form textarea {
     width: 90%;
+  }
+  .properties .cards .card {
+    width: 100%;
   }
   .property .slides .slide {
     width: 100%;
